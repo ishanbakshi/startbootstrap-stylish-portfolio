@@ -62,10 +62,13 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Buskers Mate</h1>
-            <h3>(coming soon ... )</h3>
+            <p>coming soon ...</p>
             <h3>We help buskers share their music</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <br>
+            <br>
+            <a href="#portfolio" class="btn btn-dark">Register Interest</a>
             <div class="text-right-bottom-footer">
             <a href="http://commons.wikimedia.org/wiki/File:Yarra_River_%26_City_Skyline.jpg#/media/File:Yarra_River_%26_City_Skyline.jpg">Yarra River &amp; City Skyline</a>" by <a href="//commons.wikimedia.org/wiki/User:Donaldytong" title="User:Donaldytong">Donaldytong</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>
         </div>
@@ -173,12 +176,27 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="portfolio-item">
+                                <form name="register-interest-form" method="post" action="register_interest.php">
+                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
+                                <tr>
+                                <td width="16%">Email</td>
+                                <td width="2%">:</td>
+                                <td width="82%"><input name="subject" type="text" id="subject" size="50"></td>
+                                </tr>
+                                <tr>
+                                <td>Comments</td>
+                                <td>:</td>
+                                <td><textarea name="detail" cols="50" rows="4" id="detail"></textarea></td>
+                                </tr>
+                                </table>
+                                </form>
                                 
+
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">Submit</a>
+                    <a href="#" class="btn btn-dark">Register Interest</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -192,9 +210,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>We would love it if you show your interest</h3>
+                    <a href="#portfolio" class="btn btn-lg btn-light">Let us know what you feel!</a>
                 </div>
             </div>
         </div>
