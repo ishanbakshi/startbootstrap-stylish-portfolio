@@ -177,18 +177,25 @@
                         <div class="col-md-12">
                             <div class="portfolio-item">
                                 <form name="register-interest-form" method="post" action="register_interest.php">
-                                <table width="100%" border="0" cellspacing="1" cellpadding="3">
-                                <tr>
-                                <td width="16%">Email</td>
-                                <td width="2%">:</td>
-                                <td width="82%"><input name="subject" type="text" id="subject" size="50"></td>
-                                </tr>
-                                <tr>
-                                <td>Comments</td>
-                                <td>:</td>
-                                <td><textarea name="detail" cols="50" rows="4" id="detail"></textarea></td>
-                                </tr>
-                                </table>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    <label >Email : </label>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <input type="text" name="email" size="55"/>
+                                    
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    <label>Comments : </label>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <textarea tname="comments" rows="10" cols="55">We love feedback. Please let us know what you think about this.
+                                    </textarea>
+                                    </div>
+                                </div>
                                 </form>
                                 
 
