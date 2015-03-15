@@ -191,7 +191,7 @@
                                     <label>Comments : </label>
                                     </div>
                                     <div class="col-md-8">
-                                    <textarea tname="comments" rows="10" cols="55">We love feedback. Please let us know what you think about this.
+                                    <textarea name="comment" rows="10" cols="55">We love feedback. Please let us know what you think about this.
                                     </textarea>
                                     </div>
                                 </div>
