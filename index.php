@@ -50,10 +50,10 @@
                 <a href="#services">Services</a>
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Register Interest</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#about-us">Team</a>
             </li>
         </ul>
     </nav>
@@ -182,8 +182,7 @@
                                     <label >Email : </label>
                                     </div>
                                     <div class="col-md-8">
-                                    <input type="text" name="email" size="55"/>
-                                    
+                                    <input type="email" name="email" size="55" placeholder="email@domain.com" required="true"/>
                                     </div>
                                 </div>
                                 <br>
@@ -196,6 +195,7 @@
                                     </textarea>
                                     </div>
                                 </div>
+                                <input type="submit" class="btn btn-dark" value="Register Interest" />
                                 </form>
                                 
 
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">Register Interest</a>
+                    
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -226,7 +226,7 @@
 
 
     <!-- Footer -->
-    <footer>
+    <footer id="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
