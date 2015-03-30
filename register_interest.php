@@ -10,9 +10,9 @@
 		$email = trim($_POST["email"]);
 		$comment = trim($_POST["comment"]); 
 		$query = "INSERT INTO registeration (email, comments) VALUES ('$email','$comment')";
-		$result = mysqli_query($conn, $query); 
-		if(!$result) { 
-			echo "<p class=\"wrong\">Something is wrong with ", $query, "</p>";
+		$result = @mysqli_query($conn, $query);
+		if($result === false) {	 
+			echo "<p class=\"wrong\">There is something wrong. Please try again later</p>";
 		}else{
 			echo "<p class=\"ok\">Successfully added your interest</p>"; 
 		}

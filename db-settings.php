@@ -1,6 +1,6 @@
 <?php
-	$host = "localhost:8889";
+	$host = "localhost";
 	$user = "root";
-	$pwd = "root";
-	$sql_db = "landingpage";
+	$pwd = "buskermate";
+	$sql_db = "buskermate";
 ?>
