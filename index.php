@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Buskers Mate -- Helping buskers share their music</title>
+    <title>Busker Mate -- Helping buskers share their music</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top">Buskers Mate</a>
+                <a href="#top">Busker Mate</a>
             </li>
             <li>
                 <a href="#top">Home</a>
@@ -61,7 +61,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Buskers Mate</h1>
+            <h1>Busker Mate</h1>
             <p>coming soon ...</p>
             <h3>We help buskers share their music</h3>
             <br>
@@ -236,7 +236,7 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.facebook.com/pages/Buskermate/1573125146273448?ref=hl"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">

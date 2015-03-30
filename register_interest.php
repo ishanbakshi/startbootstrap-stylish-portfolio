@@ -13,8 +13,8 @@
 		$result = @mysqli_query($conn, $query);
 		if($result === false) {	 
 			echo "<p class=\"wrong\">There is something wrong. Please try again later</p>";
-		}else{
-			echo "<p class=\"ok\">Successfully added your interest</p>"; 
+    }else{
+      header('Location: confirmRegistration.html'); 
 		}
 		mysqli_close($conn); 
 	}
